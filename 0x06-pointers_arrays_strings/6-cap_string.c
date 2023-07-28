@@ -30,6 +30,7 @@ char *cap_string(char *s)
 		    s[digit - 1] == '}' ||
 		    digit == 0)
 			s[digit] -= 32;
+
 		digit++;
 	}
 
