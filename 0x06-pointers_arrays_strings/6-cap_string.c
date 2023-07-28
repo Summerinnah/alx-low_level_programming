@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * cap_string - encodes a string to 1337
- * @s: string to be capitalized
+ * cap_string - function that capitalizes all words of a string
+ * @s: input string
  * Return: pointer to the altered string
  */
 
