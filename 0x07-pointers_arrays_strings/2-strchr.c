@@ -12,7 +12,7 @@ char *_strchr(char *s, char c)
 	int z;
 
 	z = 0;
-	for (s[z] >= '\0'; z++)
+	for (; s[z] >= '\0'; z++)
 	{
 		if (s[z] == c)
 			return (&s[z]);
