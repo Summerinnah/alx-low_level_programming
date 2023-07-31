@@ -12,6 +12,7 @@ unsigned int _strspn(char *s, char *accept)
 	unsigned int n;
 	int b;
 
+	n = 0;
 	while (*s)
 	{
 		for (b = 0; accept[b]; b++)
